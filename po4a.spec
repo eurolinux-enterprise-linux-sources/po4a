@@ -1,6 +1,6 @@
 Name: po4a
 Version: 0.44
-Release: 10%{?dist}
+Release: 9%{?dist}
 Summary: A tool maintaining translations anywhere
 License: GPL+
 URL: http://alioth.debian.org/projects/po4a/
@@ -93,9 +93,6 @@ rm t/24-tex.t
 %{_mandir}/*/man7/po4a-runtime.7*
 
 %changelog
-* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.44-10
-- Mass rebuild 2013-12-27
-
 * Mon Jul 29 2013 Richard W.M. Jones <rjones@redhat.com> - 0.44-9
 - Fix bang path /usr/bin/env perl -> %{_bindir}/perl (RHBZ#987035).
 - Increase verbosity of po4a when building to help diagnose build errors.
